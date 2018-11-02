@@ -1,6 +1,8 @@
 #include <iostream>
+#include "dictionary.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    dictionary d(string("../dictionary.txt"));
+    d.run();
     return 0;
 }
